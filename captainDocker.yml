@@ -3,7 +3,7 @@ base_model_config: meta-llama/Llama-2-7b-hf
 model_type: LlamaForCausalLM
 tokenizer_type: LlamaTokenizer
 is_llama_derived_model: true
-hub_model_id: MattCoddity/captainDocker 
+hub_model_id: MattCoddity/captainDocker
 
 load_in_8bit: false
 load_in_4bit: true
@@ -30,7 +30,7 @@ lora_target_modules:
 lora_target_linear: true
 lora_fan_in_fan_out:
 
-wandb_project:captainDocker
+wandb_project: captainDocker
 wandb_entity:
 wandb_watch:
 wandb_run_id:
