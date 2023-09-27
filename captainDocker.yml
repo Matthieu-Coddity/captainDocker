@@ -10,7 +10,7 @@ load_in_4bit: true
 strict: false
 
 datasets:
-  - path: MattCoddity/docker_ps
+  - path: MattCoddity/dockerNLcommands
     type: alpaca
 dataset_prepared_path: last_run_prepared
 val_set_size: 0.01
